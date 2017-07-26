@@ -5,7 +5,7 @@ A Google Cloud Vision + Ionic 3 + Firebase App
 https://github.com/cbetz/my-stuff
 
 # Wiki
-https://github.com/gianlazz/ARSpeedRead.wiki
+https://github.com/gianlazz/ARSpeedRead/wiki
 
 
 ## This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
