@@ -8,7 +8,7 @@ https://github.com/cbetz/my-stuff
 https://github.com/gianlazz/ARSpeedRead.wiki
 
 
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+## This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
 ## How to use this template
 
