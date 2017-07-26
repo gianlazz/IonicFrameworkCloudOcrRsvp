@@ -7,7 +7,7 @@ https://github.com/cbetz/my-stuff
 # Wiki
 https://github.com/gianlazz/ARSpeedRead/wiki
 
-[https://github.com/gianlazz/ARSpeedRead/blob/master/ocrspeedreadwireframe/New%20Doc%202017-07-26_1.jpg|alt=octocat]
+![alt text](https://github.com/gianlazz/ARSpeedRead/blob/master/ocrspeedreadwireframe/New%20Doc%202017-07-26_1.jpg "Logo Title Text 1")
 
 ## This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
