@@ -1,3 +1,8 @@
+## Cross Platform JS Mobile app with cloud Optical Character Recognition(OCR) and Rapid Serial Visual Presentation(RSVP)
+
+A Google Cloud Vision + Ionic 3 + Firebase App
+https://github.com/cbetz/my-stuff
+
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
 ## How to use this template
