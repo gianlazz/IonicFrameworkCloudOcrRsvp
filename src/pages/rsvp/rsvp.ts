@@ -16,6 +16,7 @@ export class RsvpPage {
 
   rsvpString: string;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  this.rsvpString = "Hello World";
   }
 
   ionViewDidLoad() {
