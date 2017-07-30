@@ -16,10 +16,9 @@
 // automatically applied to the <body> element in the app.
 
 @font-face {
-font-family: Futura;
-src: url(../assets/fonts/Futura.ttc) format("ttc");
-font-weight: 200
+font-family: Futura_Medium;
+src: url(../assets/fonts/Futura_Medium.woff) format("woff");
 }
 body {
-font-family: name !important;
+font-family: Futura_Medium;
 }
