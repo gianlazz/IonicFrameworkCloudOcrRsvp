@@ -1,5 +1,13 @@
 page-rsvp {
+
+  .container{
+    display: flex;
+  flex-flow: column;
+  height: 100%;
+  }
+
   .pauseText {
+    flex: 1;
     text-align: center;
     color: #9B9B9B;
     text-decoration: underline;
@@ -8,13 +16,23 @@ page-rsvp {
   }
 
   .rsvp {
+      flex: 2;
+      flex-grow: 1;
       text-align: center;
       color: #4A90E2;
       font-family: Futura_Medium;
       font-size: 12vw;
+
+  }
+
+  .slider {
+    flex: 3;
+    flex-grow: 1;
   }
 
   .wpm {
+    flex: 4;
+    bottom: 0px;
     font-weight: bold;
     font-size: 3vw;
     text-align: center;
@@ -24,6 +42,7 @@ page-rsvp {
     margin-top: 20px;
     margin-left: 130px;
     margin-right: 130px;
+    margin-bottom: 20px;
     font-family: Futura_Medium;
   }
 }
