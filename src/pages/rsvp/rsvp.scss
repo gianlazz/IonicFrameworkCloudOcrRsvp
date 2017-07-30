@@ -2,11 +2,26 @@ page-rsvp {
   .pauseText {
     text-align: center;
     color: #9B9B9B;
+    text-decoration: underline;
+    font-size: 3vw;
   }
 
   .rsvp {
       text-align: center;
       color: #4A90E2;
       font-family: Futura_Medium;
+      font-size: 12vw;
+  }
+
+  .wpm {
+    font-weight: bold;
+    font-size: 3vw;
+    text-align: center;
+    color: #9B9B9B;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 20px;
+    margin-left: 130px;
+    margin-right: 130px;
   }
 }
