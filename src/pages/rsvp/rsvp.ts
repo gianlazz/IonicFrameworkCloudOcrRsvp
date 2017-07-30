@@ -14,6 +14,7 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class RsvpPage {
 
+  rsvpString: string;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
