@@ -16,27 +16,37 @@ import { NavController, NavParams } from 'ionic-angular';
 export class RsvpPage {
   rsvpString: string;
   demoString: string = "Angular is a TypeScript-based open-source front-end web application platform led by the Angular Team at Google and by a community of individuals and corporations to address all of the parts of the developer's workflow while building complex web applications. Angular is a complete rewrite from the same team that built AngularJS.";
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-  this.rsvpString = this.demoString;
 
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  //this.rsvpString = this.demoString;
+
+  this.rsvp();
   }
 
   private ionViewDidLoad() {
     console.log('ionViewDidLoad RsvpPage');
   }
 
-  /*
-  private getWords(text)
-  {
-  	//return text.split(/\b\s+/)
-  	//return text.split(" ")
-  	return text.split(/[\s]+/)
-  }
-  private changeWord(wordstring)
-  {
-  	$("#word").html(wordstring)
+  public async rsvp() {
+  console.log(this.demoString.split(/[\s]+/));
+   let splitStringArray = this.demoString.split(/[\s]+/);
+   let index = 3;
+   console.log(splitStringArray[index])
+   console.log(splitStringArray.length)
+   //this.rsvpString = splitStringArray[3];
+
+   while (index < splitStringArray.length){
+    this.rsvpString = splitStringArray[index]
+    await new Promise(r => setTimeout(r, 1000));
+    index++
+    console.log(index)
+   }
   }
 
+  // }
+   //displaynextword
+  //}
+/*
   //READING = 0
   displayNextWord(words,index,interval) {
   	var $container = $("#word");
@@ -44,27 +54,28 @@ export class RsvpPage {
   		//if(READING == 0){return;}
   		$container.html(words[index]);
   		if (index++ < words.length) {
+        //calls a function after a set amont of time
   			setTimeout(step, interval);
   		}
   	})();
   }
 
-    private runRSVP(){
-      let displayNextWord = this.displayNextWord;
+  private runRSVP() {
+    let displayNextWord = this.displayNextWord;
+    let getWords = this.getWords
     $(document).ready(function(){
-    	$("#wordDisplay").click(function(){
+      $("#wordDisplay").click(function(){
         console.log("#wordDisplay");
-    		//if(READING == 1){ READING = 0;return; }
-    		let text = $("#inputText").val()
-    		let words = getWords(text)
-    		let speed = $('#wpm').val()
-    		let interval = 1.0/(speed/60.0)*1000.0
-    		let READING = 1
-    		displayNextWord(words, 0, interval);
-    		READING = 0
-    	})
+        //if(READING == 1){ READING = 0;return; }
+        let text = $("#inputText").val();
+        let words = getWords(text);
+        let speed = $('#wpm').val()
+        let interval = 1.0/(speed/60.0)*1000.0
+        //let READING = 1
+        displayNextWord(words, 0, interval);
+        //READING = 0
+      })
     })
   }
-  */
-
+*/
 }
