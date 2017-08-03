@@ -37,7 +37,7 @@ export class RsvpPage {
 
    while (index < splitStringArray.length){
     this.rsvpString = splitStringArray[index]
-    await new Promise(r => setTimeout(r, 1000));
+    await new Promise(r => setTimeout(r, 200));
     index++
     console.log(index)
    }
