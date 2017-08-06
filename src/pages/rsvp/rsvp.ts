@@ -23,7 +23,7 @@ export class RsvpPage {
   this.rsvp();
   }
 
-  private ionViewDidLoad() {
+    ionViewDidLoad() {
     console.log('ionViewDidLoad RsvpPage');
   }
 
