@@ -1,8 +1,4 @@
 # Cross Platform JS Mobile app with cloud Optical Character Recognition(OCR) and Rapid Serial Visual Presentation(RSVP)
-Example code below will be employed
-
-A Google Cloud Vision + Ionic 3 + Firebase App
-https://github.com/cbetz/my-stuff
 
 # Wiki
 https://github.com/gianlazz/ARSpeedRead/wiki
